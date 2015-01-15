@@ -731,7 +731,7 @@ label {
 }
 select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
 	display:inline-block;
-	height:60px;
+	height:30px;
 	padding:4px 6px;
 	margin-bottom:10px;
 	font-size:14px;
@@ -4360,4 +4360,8 @@ transition:.6s ease-in-out left
 }
 .affix {
 	position:fixed
+}
+
+#input01 {
+	
 }
