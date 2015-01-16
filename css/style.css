@@ -1,0 +1,31 @@
+.centered h4 { text-align: center; }
+.centered p { text-align: center; }
+.centered img { margin-left: auto; margin-right: auto; display: block; }
+.colored-form textarea, .colored-form .form-control { color: #2c3e50; background-color: #2c3e50; border-radius: 10px; }
+.colored-form label { padding-left: 10px; color: white; }
+
+.form-control::-webkit-input-placeholder {
+    color: blue;
+}
+.form-control:-moz-placeholder {
+    color: blue;
+}
+.form-control::-moz-placeholder {
+    color: blue;
+}
+:-ms-input-placeholder {
+    color: blue;
+}
+::-webkit-input-placeholder {
+    color: red;
+}
+.form-control:-moz-placeholder {
+    color: red;
+}
+::-moz-placeholder {
+    color: red;
+}
+:-ms-input-placeholder {
+    color: red
+}
+
