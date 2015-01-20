@@ -5,27 +5,24 @@
 .colored-form label { padding-left: 10px; color: white; }
 
 .form-control::-webkit-input-placeholder {
-    color: blue;
+	padding-left: 10px;
+    color: white;
 }
 .form-control:-moz-placeholder {
-    color: blue;
+	padding-left: 10px;
+    color: white;
 }
 .form-control::-moz-placeholder {
-    color: blue;
+	padding-left: 10px;
+    color: white;
 }
 :-ms-input-placeholder {
-    color: blue;
+	padding-left: 10px;
+    color: white;
 }
-::-webkit-input-placeholder {
-    color: red;
+.form-control:focus {
+	color: white;
 }
-.form-control:-moz-placeholder {
-    color: red;
+.form-control {
+	padding-left: 10px;
 }
-::-moz-placeholder {
-    color: red;
-}
-:-ms-input-placeholder {
-    color: red
-}
-
